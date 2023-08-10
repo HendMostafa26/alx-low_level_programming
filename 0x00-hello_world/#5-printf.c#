@@ -1,0 +1,6 @@
+#include<stdio.h>
+/**
+ * main - Entry point for function printf
+ * Return: 0 (success)
+ */
+int main (void
