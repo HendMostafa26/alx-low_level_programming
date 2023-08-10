@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main: It is the entry point for program execution
- * description: the output is a string
+ * puts: A function for printing a string
  * Return: 0 is a success
  */
 int main(void)
