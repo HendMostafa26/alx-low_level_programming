@@ -1,5 +1,6 @@
 #include<stdio.h>
 /**
+ * description: Printing a string
  * main: It is the entry point for program execution
  * Return: 0 is a success
  */
