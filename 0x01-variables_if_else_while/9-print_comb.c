@@ -10,6 +10,7 @@ for (h = 0; h < 10; h++)
 {
 putchar('0' + h);
 putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return(0);
