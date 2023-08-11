@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char h;
+int h;
 for (h = 0; h < 10; h++)
 putchar('0' + h);
 return (0);
