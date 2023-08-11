@@ -8,7 +8,8 @@
 int main(void)
 {
 int n;
-int modulo = n % 10;
+int modulo
+modulo = n % 10;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (modulo > 5)
