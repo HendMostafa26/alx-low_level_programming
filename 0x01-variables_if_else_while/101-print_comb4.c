@@ -1,7 +1,7 @@
 #include<stdio.h>
-/**                                                                                                                                                                      
- * main - Entry point for function putchar                                                                                                                               
- * Return: 0(Success)                                                                                                                                                    
+/**                                                                                                                                                                     
+ * main - Entry point for function putchar                                                                                                                              
+ * Return: 0(Success)                                                                                                                                                   
  */
 int main(void)
 {
