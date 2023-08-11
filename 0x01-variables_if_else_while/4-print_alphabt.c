@@ -6,9 +6,13 @@
 int main(void)
 {
 char h;
-for (h = 'a'; h >= 'z' && h != 'e' && h != 'q'; h++)
+if(h = 'a'; h >= 'z' && h != 'e' && h != 'q'; h++)
 {
 putchar(h);
+}
+else
+{
+putchar("\n");
 }
 putchar('\n');
 return (0);
