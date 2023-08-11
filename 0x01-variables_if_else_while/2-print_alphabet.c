@@ -9,7 +9,7 @@ char h;
 for (h='a'; h<='z' ; h++)
 {
 putchar(h);
-write ('\n');
+fwrite ('\n');
 }
 return (0);
 }
