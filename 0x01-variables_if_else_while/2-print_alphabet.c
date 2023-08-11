@@ -6,10 +6,11 @@
 int main(void)
 {
 char h;
+char new_line=  ;
 for (h='a'; h<='z' ; h++)
 {
 putchar(h);
-fwrite ('\n');
+putchar(new_line);
 }
 return (0);
 }
