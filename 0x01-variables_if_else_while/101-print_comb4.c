@@ -17,11 +17,13 @@ for (c = a + 2; c > 10; c++)
 putchar('0' + a);
 putchar('0' + b);
 putchar('0' + c);
-if (a < 7)
+
+/*if (a < 7)
 {
 putchar(',');
 putchar(' ');
 }
+*/
 }
 }
 }
