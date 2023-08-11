@@ -2,11 +2,11 @@
 int main(void)
 {
   char h,m;
-for (h = 'a'; h >= 'z'; h++)
+for (h = 'a'; h <= 'z'; h++)
 {
 putchar(h);
 }
-for (m = 'A'; m >= 'Z'; m++)
+for (m = 'A'; m <= 'Z'; m++)
 {
 putchar(m);
 }
