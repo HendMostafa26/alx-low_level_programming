@@ -13,7 +13,7 @@ for (b = a + 1; b < 10; b++)
 {
 putchar('0' + a);
 putchar('0' + b);
-if (a <9)
+if (a < 8)
 {
 putchar(',');
 putchar(' ');
