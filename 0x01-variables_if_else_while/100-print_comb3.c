@@ -9,9 +9,9 @@ int a;
 int b;
 for (a = 0; a < 10; a++)
   {
-for (b = 0; b < 10; b++)
+for (b = a + 1; b < 10; b++)
  {
-if ( a != b && ab == ba)
+if (a != b )
 {
 putchar('0' + a);
 putchar('0' + b);
