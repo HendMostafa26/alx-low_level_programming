@@ -6,7 +6,7 @@
 int main(void)
 {
 int h;
-if (h = 0; h < 10; h++)
+for (h = 0; h < 10; h++)
 {
 putchar(h);
 }
