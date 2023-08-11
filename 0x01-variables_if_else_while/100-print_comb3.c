@@ -7,14 +7,17 @@ int main(void)
 {
 int a;
 int b;
-for (a = 0; b = 0; a < 10; b < 10; a++; b++)
-{
+for (a = 0; a < 10; a++)
+  {
+for (b = 0; b < 10; b++)
+ {
 if ( a != b)
 {
 putchar('0' + a);
 putchar('0' + b);
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
