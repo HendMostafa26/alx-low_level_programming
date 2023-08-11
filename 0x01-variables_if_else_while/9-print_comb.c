@@ -11,11 +11,11 @@ if (h < 9)
 {
 putchar('0' + h);
 putchar(',');
+putchar(' ');
 }
 else
 {
 putchar('0' + h);
 }
-putchar('\n');
 return(0);
 }
