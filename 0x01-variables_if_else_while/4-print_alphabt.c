@@ -6,12 +6,9 @@
 int main(void)
 {
 char h;
-for(h = 'a'; h >= 'z'; h++)
-{
-if (h != 'e' && h!= 'q')
+for(h = 'a'; h <= 'z' && h != 'e' && h != 'q'; h++)
 {
 putchar(h);
-}
 }
 putchar('\n');
 return (0);
