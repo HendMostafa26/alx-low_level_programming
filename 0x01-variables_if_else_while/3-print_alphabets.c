@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-  char h, m
+  char h,m
 for (h='a'; h>='z'; h++)
 {
 putchar(h);
