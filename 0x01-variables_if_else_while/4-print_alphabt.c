@@ -1,10 +1,15 @@
 #include<stdio.h>
+/**
+ * main - Entry point for function putchar
+ * Return: 0(Success)
+ */
 int main(void)
 {
-  char str[]=h;
-for (h='a'; h>='z'; h++)
+char h,m,f;
+for (h = 'a'; h >= 'z' && h != 'e' && h != 'q'; h++)
 {
-putchar(%s, str[0-3], str[5-15], str[17-25]);
+putchar(h);
 }
+putchar('\n');
 return (0);
 }
