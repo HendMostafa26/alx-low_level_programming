@@ -11,14 +11,14 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n>0)
 {
-printf("%d\n",n);
+printf("is positive %ln\n");
 }
 else if (n=0)
 {
-printf("%d\n",n);
+printf("is zero %ln\n");
 }
 else {
-printf("%d\n",n);
+printf("is negative %ln\n",n);
 }
 return (0);
 }
