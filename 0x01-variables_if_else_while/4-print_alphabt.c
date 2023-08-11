@@ -1,18 +1,10 @@
 #include<stdio.h>
 int main(void)
 {
-  char h, m, f;
-for (h='a'; h>='d'; h++)
+  char str[]=h;
+for (h='a'; h>='z'; h++)
 {
-putchar(h);
-}
-for (m='f'; m>='p'; m++)
-{
-putchar(m);
-}
-for (f='r'; f>='z'; f++)
-{
-putchar(f);
+putchar(%s, str[0-3], str[5-15], str[17-25]);
 }
 return (0);
 }
