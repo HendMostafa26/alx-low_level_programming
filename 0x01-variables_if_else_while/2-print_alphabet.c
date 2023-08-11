@@ -6,7 +6,7 @@
 int main(void)
 {
 char h;
-char new_line=  ;
+char new_line =;
 for (h='a'; h<='z' ; h++)
 {
 putchar(h);
