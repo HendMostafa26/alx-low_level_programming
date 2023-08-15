@@ -18,7 +18,7 @@ printf("\n");
 }
 else
 {
-print(", ");
+printf(", ");
 }
 }
 return (0);
