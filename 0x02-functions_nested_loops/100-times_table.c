@@ -16,6 +16,7 @@ c = a * b;
 if (b == 0)
 {
 _putchar('0' + c);
+}
 else if (c < 10 && b != 0)
 {
 _putchar(',');
