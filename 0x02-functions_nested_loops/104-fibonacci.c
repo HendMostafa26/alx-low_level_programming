@@ -27,7 +27,7 @@ after_second = (after % a);
 for (i = 92; i < 99; ++i)
 {
 printf(", %lu", after_first + (after_second / a));
-printf("%lu", after_second);
+printf("%lu", after_second % a);
 after_first = after_first + before_first;
 before_first = after_first - before_first;
 after_second = after_second + before_second;
