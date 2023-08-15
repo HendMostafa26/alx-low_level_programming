@@ -9,6 +9,5 @@ void times_table(void)
 for (i = 0; i <= 10; i++)
 times = n * i;
 _putchar('0' + times);
-return (times);
 }
   
