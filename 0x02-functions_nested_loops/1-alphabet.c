@@ -4,12 +4,12 @@
  * main - Entry point for function putchar
  * Return: 0 for success
  */
-int main(void)
+void print_alphabet(void);
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
+char h;
+for (h = 'a'; h <= 'z'; h++)
 {
-putchar (c);
+putchar (h);
 }
 putchar('\n');
 return (0);
