@@ -12,6 +12,7 @@ if(n <= 15 && n >= 0)
 for (a = 0; a <= n; a++)
 {
 for (b = 0; b <= n; b++)
+{
 c = a * b;
 if (b == 0)
 {
@@ -26,4 +27,4 @@ _putchar(' ');
 _putchar('\n');
 }
 }
-		
+}		
