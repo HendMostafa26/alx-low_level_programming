@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * isalpha - Function to get lower and uppercases of letters
+ * _isalpha - Function to get lower and uppercases of letters
  * @c: Character
  * Return: 1 is success and 0 is failure
  */
