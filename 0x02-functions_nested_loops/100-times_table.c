@@ -42,8 +42,8 @@ _putchar('0' + (c / 100));
 _putchar('0' + (c / 10) % 10);
 _putchar('0' + (c % 10));
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
 }		
