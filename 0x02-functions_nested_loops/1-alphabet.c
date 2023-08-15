@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"main.h"
 /**
  * main - Entry point for function putchar
@@ -12,5 +11,4 @@ for (h = 'a'; h <= 'z'; h++)
 putchar (h);
 }
 putchar('\n');
-return (0);
 }
