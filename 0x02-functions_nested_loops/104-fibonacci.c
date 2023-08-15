@@ -13,10 +13,10 @@ unsigned long before_first;
 unsigned long before_second;
 unsigned long after_first;
 unsigned long after_second;
-printf("%ld", before);
+printf("%lu", before);
 for (i = 1; i < 91; i++)
 {
-printf(", %ld", after);
+printf(", %lu", after);
 after = after + before;
 before = after - before;
 }
@@ -26,8 +26,8 @@ after_first = (after / a);
 after_second = (after % a);
 for (i = 92; i < 99; ++i)
 {
-printf(", %ld", after_first + (after_second / a));
-printf("%ld", after_second);
+printf(", %lu", after_first + (after_second / a));
+printf("%lu", after_second);
 after_first = after_first + before_first;
 before_first = after_first - before_first;
 after_second = after_second + before_second;
