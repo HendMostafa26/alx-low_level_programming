@@ -1,7 +1,7 @@
 #include"main.h"
 int print_last_digit(int h)
 {
-if (n > 0)
+if (h > 0)
 {
 int last_digit;
 last_digit = h % 10;
