@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int a = 0, b = 1, c, sum;
+unsigned long a = 0, b = 1, c, sum;
 for (c = 0; c < 50; c++)
 {
 sum = a + b;
