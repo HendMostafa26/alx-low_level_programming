@@ -9,7 +9,7 @@ int a = 0, b = 1, c, sum;
 for (c = 0; c < 50; c++)
 {
 sum = a + b;
-printf("%d\n", sum);
+printf("%d", sum);
 a = b;
 b = sum;
 if (c == 49)
