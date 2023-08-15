@@ -1,13 +1,12 @@
 #include"main.h"
 /**
- * main - Entry point for function putchar
+ * print_alphabet - Writes and prints the alphabet
  * Return: 0 for success
  */
 void print_alphabet(void);
+{
 char h;
 for (h = 'a'; h <= 'z'; h++)
-{
-putchar (h);
+_putchar (h);
+_putchar('\n');
 }
-putchar('\n');
-
