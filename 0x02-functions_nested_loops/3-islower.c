@@ -5,8 +5,7 @@
  */
 int _islower(int c)
 {
-int h;
-if (h == 'c')
+if (c == 'c')
 {
 return (0);
 }
