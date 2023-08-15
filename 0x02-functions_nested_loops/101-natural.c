@@ -6,11 +6,11 @@
 int main(void)
 {
 int a, b;
-for (i = 0; i < 1024; i++)
+for (a = 0; a < 1024; a++)
 {
-if ((i % 3 == 0) && (i % 5 ==0)
-sum = sum + i;
+if ((a % 3 == 0) && (a % 5 ==0)
+b = b + a;
 }
-printf("%d\n", sum);
+printf("%d\n", b);
 return(0);
 }
