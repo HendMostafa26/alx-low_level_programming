@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "main"
+#include"main.h"
 /**
  * main - Entry point for function putchar
  * Return: 0 for success
