@@ -15,8 +15,8 @@ if (c > 9)
 {
 d = c % 10;
 e = (c - d) / 10;
-_putchar(',');
-_putchar(' ');
+ _putchar(44);
+_putchar(32);
 _putchar('0' + d);
 _putchar('0' + e);
 }
@@ -24,9 +24,9 @@ else
 {
 if (b != 0)
 {
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
+_putchar(44);
+_putchar(32);
+_putchar(32);
 }
 _putchar('0' + c);
 }
