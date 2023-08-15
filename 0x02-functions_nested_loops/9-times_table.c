@@ -15,18 +15,18 @@ if (c > 9)
 {
 d = c % 10;
 e = (c - d) / 10;
- _putchar(44);
-_putchar(32);
-_putchar('0' + d);
+_putchar(',');
+_putchar(' ');
 _putchar('0' + e);
+_putchar('0' + d);
 }
 else
 {
 if (b != 0)
 {
-_putchar(44);
-_putchar(32);
-_putchar(32);
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
 }
 _putchar('0' + c);
 }
@@ -34,4 +34,3 @@ _putchar('0' + c);
 _putchar('\n');
 }
 }
-  
