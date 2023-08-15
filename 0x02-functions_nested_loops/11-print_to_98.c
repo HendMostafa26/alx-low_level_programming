@@ -10,38 +10,26 @@ for (; n <= 98; n++)
 {
 if (n == 98)
 {
-_putchar('0' + n);
-_putchar(',');
-_putchar(' ');
-_putchar('\n');
+printf("%d", n);
+printf("\n");
 break;
 }
 else
 {
-_putchar('0' + n);
-_putchar(',');
-_putchar(' ');
-_putchar(',');
-_putchar(' ');
+printf("%d, ", n);
 }
 }
 for (; n >= 98; n--)
 {
 if (n ==98)
 {
-_putchar('0' + n);
-_putchar(',');
-_putchar(' ');
-_putchar('\n');
+printf("%d", n);
+printf("\n");
 break;
  }
 else
 {
-_putchar('0' + n);
-_putchar(',');
-_putchar(' ');
-_putchar(',');
-_putchar(' ');
+printf("%d, ", n);
 }
 }
 }
