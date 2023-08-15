@@ -3,7 +3,7 @@
  * print_alphabet - Writes and prints the alphabet
  * Return: 0 for success
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char h;
 for (h = 'a'; h <= 'z'; h++)
