@@ -1,0 +1,16 @@
+#include<stdio.h>
+/**
+ * main - Entry point for modulus
+ * Return: 0 is success
+ */
+int main(void)
+{
+int a, b;
+for (i = 0; i < 1024; i++)
+{
+if ((i % 3 == 0) && (i % 5 ==0)
+sum = sum + i;
+}
+printf("%d\n", sum);
+return(0);
+}
