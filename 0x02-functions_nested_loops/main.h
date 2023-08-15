@@ -1,5 +1,5 @@
-#ifndef MYHEADERS_H
-#define MYHEADERS_H
+#ifndef void print_alphabet(void);
+#define void print_alphabet(void);
 
 int add(int a, int b);
 
