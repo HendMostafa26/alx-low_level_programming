@@ -33,7 +33,8 @@ _putchar('0' + n);
 _putchar(',');
 _putchar(' ');
 _putchar('\n');
-}
+break;
+ }
 else
 {
 _putchar('0' + n);
