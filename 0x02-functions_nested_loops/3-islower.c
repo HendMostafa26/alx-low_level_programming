@@ -2,7 +2,7 @@
 /**
  * _islower - Function used to see if it is lower or not
  * Return: 0 is success and 1 is failure
- * c: Letter
+ * int(c): Letter
  */
 int _islower(int c)
 {
