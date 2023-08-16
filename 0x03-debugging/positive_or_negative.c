@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * positive_or_negative - Function to test if the number is positive or negative
+ * positive_or_negative - Function to test
  * @i: Integer
  *Return: Void
  */
