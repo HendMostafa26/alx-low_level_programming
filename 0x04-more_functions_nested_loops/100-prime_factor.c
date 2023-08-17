@@ -5,23 +5,13 @@
  */
 int main(void)
 {
-long int n = 612852475143;
-long int a = 2, c;
-while (n != 0)
+unsigned long n = 612852475143;
+int i;
+for (i = 3; i < 782848; i = i + 2)
 {
-if (n / a != 0)
-a = a + 1;
-else
-{
-c = n;
-n = n / a;
-if (n == 1)
-{
-printf("%ld", c);
-break;
+while ((n % i == 0) && (n != i))
+n = n / i;
 }
-}
-}
-printf("\n");
+printf("%lu\n", n);
 return (0);
 }
