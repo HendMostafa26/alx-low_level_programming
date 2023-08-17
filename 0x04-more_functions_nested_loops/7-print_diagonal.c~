@@ -1,0 +1,32 @@
+#include"main.h"
+/**
+ * print_diagonal - print diagonal file
+ * @n: Integer
+ * Return: void
+ */
+void print_diagonal(int n)
+{
+if (n <= 0)
+{
+_putchar('\n');
+}
+else
+{
+int h, m;
+for (h = 0; h < n; h++)
+{
+for (m = 0; m < n; m++)
+{
+if ( h == m)
+{
+_putchar(92);
+}
+else if (m < h)
+{
+_putchar(' ');
+}
+}
+_putchar('\n');
+}
+}
+}
