@@ -19,7 +19,7 @@ for (j = i; j < size; j++)
 {
 _putchar(' ');
 }
-for (j = i; j <= size; j++)
+for (j = 1; j <= size; j++)
 {
 _putchar(35);
 }
