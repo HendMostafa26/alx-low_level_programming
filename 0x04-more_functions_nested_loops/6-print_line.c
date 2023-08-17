@@ -6,13 +6,18 @@
  */
 void print_line(int n)
 {
-if (n > 0)
-{
-_putchar(95);
-_putchar('\n');
+  int h;
+  if (n <= 0)
+    {
+      _putchar('\n');
+    }
+  else
+    {
+  for (h = 0; h <= n; h++)
+    {
+      _putchar(95);
+    }
+  _putchar('\n');
 }
-else
-{
-_putchar('\n');
 }
-}
+       
