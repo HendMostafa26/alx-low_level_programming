@@ -13,7 +13,7 @@ _putchar('\n');
 else
 {
 int h;
-for (h = 0; h <= n; h++)
+for (h = 0; h < n; h++)
 {
 _putchar(95);
 }
