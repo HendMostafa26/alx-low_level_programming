@@ -6,7 +6,7 @@
 int main(void)
 {
 unsigned long n = 612852475143;
-int i;
+unsigned long i;
 for (i = 3; i < 782848; i = i + 2)
 {
 while ((n % i == 0) && (n != i))
