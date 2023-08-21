@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strlen - Print a string
- * @c: Character
+ * @s: Character
  * Return: 0 or 1
  */
 int _strlen(char *s)
