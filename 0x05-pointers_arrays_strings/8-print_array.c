@@ -13,7 +13,7 @@ for (j = 0; j < (n - 1); j++)
 {
 printf("%d ,", a[j]);
 }
-if (j == n - 1)
+if (j == (n - 1))
 {
 printf("%d", a[n - 1]);
 }
