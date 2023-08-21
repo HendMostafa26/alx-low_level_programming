@@ -1,0 +1,12 @@
+#include"main.h"
+/**
+ * swap_int - Function to swap integers
+ * @a: Integer
+ * @b: Integer
+ * Return: void
+ */
+void swap_int(int *a, int *b)
+{
+*a = *b;
+*b = *a;
+}
