@@ -1,0 +1,25 @@
+#include"main.h"
+/**
+ * puts2 - Function
+ * @str: Array
+ * Return: void
+ */
+void puts2(char *str)
+{
+  char i = str[0];
+  int j = 0;
+  while (*str != 0)
+    {
+      j++;
+      str++;
+      for (i = 0; i < j; i++)
+	{
+      if (i % 2 == 0)
+    {
+      _putchar(i);
+      i++;
+    }
+	}
+    }
+  _putchar('\n');
+}
