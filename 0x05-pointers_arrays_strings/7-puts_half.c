@@ -18,7 +18,7 @@ if ((i % 2) == 1)
 {
 n = ((i + 1) / 2);
 }
-for (j = n; str[j] != 0; j++)
+for (j = n; str[j] != '\0'; j++)
 {
 _putchar(str[j]);
 }
