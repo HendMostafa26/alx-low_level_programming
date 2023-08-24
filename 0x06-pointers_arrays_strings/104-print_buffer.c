@@ -17,7 +17,7 @@ return;
 while (i < size)
 {
 j = size - i < 10 ? size - i : 10;
-printf("%08x:", i);
+printf("%08x: ", i);
 for (k = 0; k < 10; k++)
 {
 if (k < j)
@@ -31,12 +31,12 @@ printf(" ");
 }
 for (k = 0; k < j; k++)
 {
-int c = *(b + i + k);
-if (c < 32 || c > 132)
+int h = *(b + i + k);
+if (h < 32 || h > 132)
 {
-c = '.';
+h = '.';
 }
-printf("%c", c);
+printf("%c", h);
 }
 printf("\n");
 i = i + 10;
