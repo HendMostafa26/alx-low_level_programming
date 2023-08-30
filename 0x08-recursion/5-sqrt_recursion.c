@@ -13,6 +13,12 @@ return (-1);
 }
 return (real_sqrt_recursion(n, 0));
 }
+/**
+ * real_sqrt_recursion - print square root
+ * @n: integer
+ * @i: integer
+ * Return: integer
+ */
 int real_sqrt_recursion(int n, int i)
 {
 if (i * i > n)
