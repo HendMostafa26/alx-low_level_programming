@@ -21,11 +21,11 @@ length2++;
 }
 if (n < length2)
 {
-string = malloc(sizeof(unsigned int) * (length1 + n + 1));
+string = malloc(sizeof(char) * (length1 + n + 1));
 }
 else
 {
-string = malloc(sizeof(unsigned int) * (length1 + length2 + n + 1));
+string = malloc(sizeof(char) * (length1 + length2 + n + 1));
 }
 if (!string)
 {
