@@ -25,7 +25,7 @@ string = malloc(sizeof(char) * (length1 + n + 1));
 }
 else
 {
-string = malloc(sizeof(char) * (length1 + length2 + n + 1));
+string = malloc(sizeof(char) * (length1 + length2 + 1));
 }
 if (!string)
 {
